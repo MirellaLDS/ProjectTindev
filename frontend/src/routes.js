@@ -7,8 +7,8 @@ import Main from "./pages/Main";
 export default function Routes() {
   return (
     <BrowserRouter>
-      <Route path="/" exact componet={Login} />
-      <Route path="/main" componet={Main} />
+      <Route path="/" exact component={Login} />
+      <Route path="/devs/:id" component={Main} />
     </BrowserRouter>
   );
 }
